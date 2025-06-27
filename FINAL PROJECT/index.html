@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> TopShelf BookStore</title>
+	<!-- the meta tag: defines metadata (information about data) about an HTML document. It is not visible on the webpage -->
+	<meta charset="UTF-8">
+	<!-- charset(character-set) UTF-8 covers all unicode characters on almost all browsers -->
+	<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+	<!-- the above tag is a must to include on all your web-pages. Viewport and content adjusts the display elements on your -->
+	<!-- webpage according to the width and dimensions of your screen. the intitial scale sets an initial zoom level when the page is first loaded by the browser.  -->
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="shortcut icon" href="images/cropped.jpg">
+
+
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<a href=""><img src="images/cropped.jpg"></a>
+		</div>
+
+		<nav>
+
+			<a href="index.html">Home</a>
+			<a href="ourbooks.html">Our BookStore</a>
+			<a href="contactus.html">Contact Us</a>
+
+		</nav>
+
+		<div class="search">
+			<input type="text" placeholder="Search...">
+			<a href="#" class="go"><img src="images/icon1.png" width="22px"></a>
+		</div>
+
+	</header>
+
+	<div class="hero">
+		<div class="images">
+			<img src="images/firstbg.jpg" width="90%">
+			<div class="tt">
+				<h2>A Sofa,</h2>
+				<h2>A Good</h2>
+				<h2>Book,</h2>
+				<h2>and You.</h2>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="best-seller">
+
+		<center>
+			<h2>TopShelf BookStore</h2>
+			<h1>BESTSELLERS</h1>
+		</center>
+
+		<div class="container">
+
+			<div class="books">
+				<div class="arrowcontainer">
+					<ul>
+						<li onclick="changeImage('prev')" class="left"><span></span></li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<img class="SliderImage" id="sliderImg1" src="images/image1.jpg">
+					<br>
+					<!-- <h3>Imperfect Scars</h3> -->
+					<a href="bookpurchase.html" class="btn">Buy Now</a>
+				</div>
+				<div class="box">
+					<img class="SliderImage" id="sliderImg2" src="images/image2.jpg">
+					<br>
+					<!-- <h3>Pillow Thoughts</h3> -->
+					<a href="bookpurchase.html" class="btn">Buy Now</a>
+				</div>
+				<div class="box">
+					<img class="SliderImage" id="sliderImg3" src="images/image3.jpg">
+					<br>
+					<!-- <h3 id="slidertxt"><span>Little Women</span></h3> -->
+					<a href="bookpurchase.html" class="btn">Buy Now</a>
+				</div>
+				<div class="arrowcontainer">
+					<ul>
+						<li onclick="changeImage('next')" class="right"><span></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="visit">
+		<h1>There's no<br>such thing as too<br>many books</h1><br><br>
+		<center><a href="ourbooks.html" class="button">View All Books</a></center>
+
+	</div>
+
+	<div class="reccBooks">
+
+		<center><br><br><br><br>
+			<h2>This Month's</h2>
+			<h1>Recommended Books</h1>
+		</center>
+
+		<div class="container">
+
+			<div class="books">
+				<div class="box">
+					<img src="images/image5.jpg" width=50%>
+					<br>
+					<h3>Climate</h3>
+					<a href="bookpurchase.html" class="btn">Buy Now</a>
+				</div>
+				<div class="box">
+					<img src="images/image4.jpg" width=50%>
+					<br>
+					<h3>A Month of Sundays</h3>
+					<a href="bookpurchase.html" class="btn">Buy Now</a>
+				</div>
+				<div class="box">
+					<img src="images/image6.jpg" width=50%>
+					<br>
+					<h3>The Forty Rules of Love</h3>
+					<a href="bookpurchase.html" class="btn">Buy Now</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="booklaunch">
+
+
+		<h3>Coming Up</h3>
+		<h1>Book Launch</h1>
+
+		<div class="elementPlacement">
+
+			<div class="txt">
+
+				<h2>Introducing into the Starry Night</h2>
+				<h4>By Maheen Fatima</h4>
+				<div class="book-info">
+					<span>When:</span>
+					<hr style="width:30px">
+					<span>12-Jul-2035, 7:00 pm</span>
+				</div>
+				<div class="book-info">
+					<span>Where:</span>
+					<hr style="width:30px"><span>
+						500 Terry Francois Street, San Francisco, CA, USA
+					</span>
+				</div>
+				<a href="#" class="blbtn">RSVP</a>
+			</div>
+
+			<div class="imgPlacement">
+				<img src="images/image7.jpg">
+
+			</div>
+		</div>
+
+	</div>
+
+	<footer>
+		<div class="topshelf-footer">
+			<div class="topshelf-section">
+				<h2>Topshelf BookStore</h2>
+				<p>500 Terry Francois St.</p>
+				<p>San Francisco, CA 94158</p>
+				<p>123-456-7890</p>
+				<p>info@my-domain.com</p>
+			</div>
+
+			<div class="topshelf-section">
+				<h2>Shop</h2>
+				<ul>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Shipping & Returns</a></li>
+					<li><a href="#">Store Policy</a></li>
+					<li><a href="#">Payment Methods</a></li>
+			</div>
+
+			<div class="topshelf-section">
+				<h2>Follow Us</h2>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Pinterest</a></li>
+				</ul>
+			</div>
+
+			<div class="topshelf-section">
+				<h2>Be the First to Know</h2>
+				<p>Sign up for our newsletter</p>
+				<form>
+					<input type="email" placeholder="Enter your email here">
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+
+		</div>
+	</footer>
+
+
+	<script src="index.js"></script>
+
+
+</body>
+
+</html>
